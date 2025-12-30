@@ -32,19 +32,6 @@ Pensado para entornos donde **pagar SonarQube Enterprise no es una opción**, pe
 
 ---
 
-## 📁 Estructura de salida
-
-```text
-reports/
- ├─ <project-key>/
- │   ├─ <project-key>.pdf
- │   ├─ <project-key>.docx
- │   └─ charts/
- │       ├─ severidad.png
- │       ├─ tipo.png
- │       └─ estado.png
-
----
 
 ## 🧰 Requisitos
 
@@ -62,6 +49,7 @@ reports/
 git clone https://github.com/TU_USUARIO/sonar-security-reports.git
 cd sonar-security-reports
 
+
 ### 2️⃣ Crear entorno virtual (recomendado)
 ```bash
 python -m venv venv
@@ -74,5 +62,21 @@ pip install -r requirements.txt
 ## 🔐 Configuración
 
 ### Editar el archivo principal:
+
+## 📁 Estructura de salida
+
+```text
+reports/
+ ├─ <project-key>/
+ │   ├─ <project-key>.pdf
+ │   ├─ <project-key>.docx
+ │   └─ charts/
+ │       ├─ severidad.png
+ │       ├─ tipo.png
+ │       └─ estado.png
+
+---
+
+
 
 
