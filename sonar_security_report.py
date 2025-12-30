@@ -11,25 +11,14 @@ from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import cm
 
 # ================= CONFIG =================
-SONAR_URL = "http://sonarqube.48.192.73.4.nip.io"
-SONAR_TOKEN = "sqa_7548d5dd169e54ccabc5f6842e2101068e6097b3"
+SONAR_URL = "http://tu-sonarqube"
+SONAR_TOKEN = "TU_TOKEN_DE_ACCESO"
 AUTH = (SONAR_TOKEN, "")
 
 OUTPUT_BASE = "reports"
 
 PROJECT_KEYS = [
-    "sige-pae-front",
-    "sige-pae-acceso-api",
-    "sige-pae-asignacion-recursos-api",
-    "sige-pae-contratos-api",
-    "sige-pae-costos-api",
-    "sige-pae-master-data-api",
-    "sige-pae-minutas-api",
-    "sige-pae-plan-pagos-api",
-    "SIPAE-API-SISPAE.API_Alertas",
-    "SIPAE-API-SISPAE.API_Contratos",
-    "SIPAE-API-SISPAE.API_Seguridad"
-    # puedes agregar TODOS los demás aquí
+    # puedes agregar TODOS los proyectos aquí
 ]
 
 os.makedirs(OUTPUT_BASE, exist_ok=True)
