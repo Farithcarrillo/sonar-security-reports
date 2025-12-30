@@ -64,6 +64,25 @@ pip install -r requirements.txt
 ## 🔐 Configuración
 
 Editar el archivo principal con tus credenciales de SonarQube.
+```bash
+SONAR_URL = "http://tu-sonarqube"
+SONAR_TOKEN = "TU_TOKEN_DE_ACCESO"
+
+PROJECT_KEYS = [
+    "mi-proyecto-frontend",
+    "mi-proyecto-backend",
+    "mi-api-python"
+]
+
+```
+---
+
+## ▶️ Ejecución
+
+Ejecutar el script desde la raíz del proyecto.
+```bash
+python sonar_security_report.py
+```
 
 ---
 
