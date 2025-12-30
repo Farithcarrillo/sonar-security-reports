@@ -32,7 +32,6 @@ Pensado para entornos donde **pagar SonarQube Enterprise no es una opción**, pe
 
 ---
 
-
 ## 🧰 Requisitos
 
 - Python **3.9 o superior**
@@ -44,27 +43,31 @@ Pensado para entornos donde **pagar SonarQube Enterprise no es una opción**, pe
 ## 🔧 Instalación local
 
 ### 1️⃣ Clonar el repositorio
-
 ```bash
 git clone https://github.com/TU_USUARIO/sonar-security-reports.git
 cd sonar-security-reports
-
+```
 
 ### 2️⃣ Crear entorno virtual (recomendado)
 ```bash
 python -m venv venv
 venv\Scripts\activate
+```
 
 ### 3️⃣ Instalar dependencias
 ```bash
 pip install -r requirements.txt
+```
+
+---
 
 ## 🔐 Configuración
 
-### Editar el archivo principal:
+Editar el archivo principal con tus credenciales de SonarQube.
+
+---
 
 ## 📁 Estructura de salida
-
 ```text
 reports/
  ├─ <project-key>/
@@ -74,9 +77,4 @@ reports/
  │       ├─ severidad.png
  │       ├─ tipo.png
  │       └─ estado.png
-
----
-
-
-
-
+```
