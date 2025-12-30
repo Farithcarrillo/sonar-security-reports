@@ -1,21 +1,4 @@
-# 🛡️ SonarQube Security Reports Generator
-
-Generador automático de **reportes de seguridad por proyecto** (PDF y Word) a partir de **SonarQube Community Edition**, incluyendo **gráficas**, **métricas clave** y **resumen ejecutivo**.
-
-Pensado para entornos donde **pagar SonarQube Enterprise no es una opción**, pero se necesitan reportes formales y presentables.
-
----
-
-## 🎯 Ideal para
-
-- Auditorías de seguridad
-- Reportes ejecutivos / gerencia
-- Evidencias de cumplimiento
-- Equipos **DevSecOps**
-- Integraciones con **Azure DevOps**
-- Proyectos Angular, TypeScript, Python y APIs
-
----
+# 🛡️ SonarQube Security Reports
 
 ## 🚀 Características
 
